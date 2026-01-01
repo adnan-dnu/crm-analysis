@@ -1,68 +1,128 @@
-📊 CRM Sales Analysis Dashboard
+📊 CRM Analytics Dashboard – Power BI
+📌 Project Overview
 
-This project analyzes CRM opportunity data using Excel, MySQL, and Power BI to understand sales performance, conversion patterns, and industry trends. The dashboard delivers clear insights that support data-driven sales and revenue decisions.
+This project is an end-to-end CRM analytics dashboard built in Power BI to provide clear visibility into sales performance, pipeline health, conversion efficiency, and revenue trends.
+The dashboard is designed with a business-first approach, focusing on usability, storytelling, and actionable insights.
 
-🔧 Tools & Technologies
+🎯 Objectives
 
-Excel – Data cleaning & preprocessing
+Monitor overall CRM performance
 
-MySQL – Data storage & SQL analysis
+Analyze the sales funnel from Lead to Opportunity
 
-Power BI – Interactive dashboard & KPI visualization
+Track Active vs Closed opportunities
 
-DAX – Custom KPIs and measures
+Evaluate conversion rates and revenue trends
 
-📁 Project Workflow
-1. Excel — Data Cleaning
+Compare year-over-year (YoY) performance
 
-Loaded and inspected raw CRM data
+Enable deeper analysis through drill-through and tooltips
 
-Removed inconsistencies and formatted fields
+📄 Dashboard Pages
 
-Prepared dataset for SQL import
+CRM Overview
 
-2. MySQL — Data Analysis
+High-level KPIs
 
-Performed SQL queries to analyze:
+Funnel metrics (Leads → Opportunities → Conversion)
 
-Opportunity count by industry
+Revenue and YoY insights (via tooltips)
 
-Stage-wise performance
+User Performance
 
-Lead quality patterns
+Sales/user-level performance tracking
 
-Year-wise opportunity trends
+Comparison of contribution and efficiency
 
-Win/Loss distribution
+Lead Analysis
 
-3. Power BI — Dashboard Creation
+Lead volume and segmentation
 
-Connected MySQL data using ODBC
+Funnel input and quality assessment
 
-Built KPIs for:
+Opportunity Analysis
 
-Conversion Rate: 7.54%
+Active vs Inactive opportunities
 
-Win Rate: 18.54%
+Won opportunities
 
-Loss Rate: 33.14%
+Expected vs Actual revenue trends
 
-Created visuals for:
+Product Analysis (Drill-Through)
 
-Industry-wise opportunity value
+Product-level contribution to opportunities
 
-Year-wise sales trends
+Revenue and conversion insights by product
 
-Opportunity type breakdown
+📊 Key Metrics Included
 
-Customer acquisition & retention indicators
+Total Leads
 
-📈 Key Insights
+Total Opportunities
 
-Low conversion suggests gaps in lead qualification
+Active Opportunities
 
-High loss rate indicates need for improved follow-up strategy
+Closed & Won Opportunities
 
-Certain industries show higher opportunity potential
+Conversion Rate (Lead → Opportunity)
 
-Year-wise trends help forecast revenue more accurately
+Expected Revenue
+
+YoY Revenue Change
+
+User-wise Performance Metrics
+
+🧠 Key Features
+
+Filter-aware DAX measures
+
+YoY storytelling using custom tooltips
+
+Drill-through navigation for detailed analysis
+
+Clean and consistent UI/UX
+
+Business-aligned KPI definitions
+
+🛠️ Tools & Technologies
+
+Power BI
+
+DAX
+
+Data Modeling (Star Schema concepts)
+
+Time Intelligence (YoY, LY)
+
+📈 Business Value
+
+Helps leadership understand pipeline health
+
+Identifies conversion gaps in the sales funnel
+
+Highlights top-performing users and products
+
+Supports data-driven sales decisions
+
+Replaces static reports with interactive insights
+
+✅ Recommendations (From Insights)
+
+Improve conversion at low-performing funnel stages
+
+Focus on managing and aging active opportunities
+
+Replicate best practices from top-performing users
+
+Invest in high-performing products and reassess low performers
+
+Use YoY trends for strategic sales planning
+
+👤 Author
+
+Adnan
+Power BI / Data Analytics Enthusiast
+
+📌 Note
+
+This dashboard is built for learning, portfolio, and interview demonstration purposes, with a strong emphasis on real-world business logic and usability.
